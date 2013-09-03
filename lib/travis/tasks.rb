@@ -15,7 +15,6 @@ end
 
 Travis.config.update_periodically
 
-Travis::Features.start
 Travis::Exceptions::Reporter.start
 Travis::Notification.setup
 Travis::Mailer.setup
