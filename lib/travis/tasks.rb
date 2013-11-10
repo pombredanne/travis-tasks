@@ -1,7 +1,6 @@
 require 'bundler/setup'
 require 'gh'
 require 'travis'
-require 'core_ext/module/load_constants'
 require 'roadie'
 require 'roadie/action_mailer_extensions'
 require 'ostruct'
